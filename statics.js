@@ -6,12 +6,12 @@ let stats  = {
         }
         return result
     },
-    avg : num_array => stats.sum(num_array) / num_array.length,
+    mean : num_array => stats.sum(num_array) / num_array.length,
     dev : num_array => {
-        let avg = stats.avg(num_array)
+        let mean = stats.mean(num_array)
         let result = []
         for (num of num_array){
-            result.push(num - avg)
+            result.push(num - mean)
         }
         return result
     },
