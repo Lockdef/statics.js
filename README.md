@@ -6,7 +6,7 @@
 ### stats.sum()
 総和を返す
 
-### stats.avg()
+### stats.mean()
 平均値を返す
 
 ### stats.dev()
