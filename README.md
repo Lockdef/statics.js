@@ -15,5 +15,5 @@
 ### stats.var()
 分散を返す
 
-### stats.std(
+### stats.std()
 標準偏差を返す
